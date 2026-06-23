@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: teal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background: darkcyan;
+}
+
+.api {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .carousel {
+        width: 95%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
